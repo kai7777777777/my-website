@@ -3,11 +3,96 @@
   <head>
     <meta charset="UTF-8" />
     <title>Pet Health App</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+      }
+      header {
+        background-color: #0078d4;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+      }
+      section {
+        margin: 20px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      h1, h2, h3 {
+        color: #333;
+      }
+      ul {
+        padding-left: 20px;
+      }
+      ul li {
+        margin-bottom: 10px;
+      }
+      footer {
+        text-align: center;
+        padding: 10px 20px;
+        background-color: #0078d4;
+        color: white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
   </head>
   <body>
-    <div id="root">
-      <h1>欢迎来到 Pet Health App！</h1>
-      <p>这是静态页面的测试内容。如果可以看到这段文字，说明 HTML 文件加载成功。</p>
-    </div>
+    <header>
+      <h1>Pet Health App</h1>
+    </header>
+    <main>
+      <!-- 线上问诊 -->
+      <section>
+        <h2>一. 线上问诊</h2>
+        <ul>
+          <li>可选择 AI 或匹配执业兽医师。</li>
+          <li>问诊后给出处方以及取药码，链接到智能药柜导航。</li>
+          <li>问诊后需要紧急送医的，推送附近医院导航。</li>
+        </ul>
+      </section>
+
+      <!-- 上门服务 -->
+      <section>
+        <h2>二. 上门服务</h2>
+        <ul>
+          <li>喂养</li>
+          <li>洗澡</li>
+          <li>护理</li>
+          <li>看诊</li>
+        </ul>
+      </section>
+
+      <!-- 宠爱圈 -->
+      <section>
+        <h2>三. 宠爱圈</h2>
+        <ol>
+          <li>根据大数据推送宠主喜欢的内容/广告的论坛。</li>
+          <li>提供附近功能，便于讨论本地宠物生活/医疗。</li>
+          <li>支持添加好友以及消息对话框。</li>
+        </ol>
+      </section>
+
+      <!-- 个人主页 -->
+      <section>
+        <h2>四. 个人主页</h2>
+        <ul>
+          <li>宠物信息</li>
+          <li>处方记录</li>
+          <li>日程表（提醒日常护理/复查/定期体检）</li>
+          <li>设置</li>
+          <li>客服 + 意见反馈</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Pet Health App. All rights reserved.</p>
+    </footer>
   </body>
 </html>
